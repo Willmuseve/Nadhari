@@ -1,0 +1,221 @@
+ body {
+  background-color: #fdf9ef;
+  font-family: 'Segoe UI', Arial, sans-serif, 'Crimson Text';
+  line-height: 2;
+  
+}
+.custom-navbar {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+  padding: 1rem 2rem;
+}
+.custom-navbar .navbar-collapse{
+  background-color: #182b01bd;
+  width:max-content;
+  align-items: flex-start;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  text-transform: capitalize;
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+  color: #aadd55 !important; /* Light green highlight */
+  padding: 10px 20px;
+}
+
+.custom-navbar .btn-success {
+  background-color: #538D0D;
+  border-color: #5F9000;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.custom-navbar .btn-success:hover,
+.custom-navbar .btn-success:focus {
+  background-color: #538D0D;
+  border-color: #538D0D;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url('Images/Hero-img.png')  center no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.hero-text-box {
+  background-color: #04361DB0;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+}
+
+
+.hero-text-box .btn-success {
+  background-color: #5F9000;
+  border-color: #5F9000;
+  font-weight: 600;
+  padding: 10px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.hero-text-box .btn-success:hover,
+.hero-text-box .btn-success:focus {
+  background-color: #497300;
+  border-color: #497300;
+}
+
+.section-h{
+  color: #538D0D;
+font-family: "Playfair Display";
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: 125%; /* 18.75px */
+}
+
+.rect-blue{
+  background: #538D0D;
+  height: 20px;
+  width: 200px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.mat-blue{
+  background: #279EFF;
+  color: #fff;
+}
+.mat-green{
+  background: #538D0D;
+  color: #fff;
+}
+
+.section-title {
+  color: #279EFF;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+         /* Ensures all cards have the same height */
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+.card .card-text{
+  font-size: 1rem;
+  padding: 0 15px 15px 15px;
+}
+.card-text h5{
+  color: #279EFF;
+  font-family: "Crimson Text";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 30.45px */
+}
+.card .card-text p{
+  height: 12vh;
+  color: #535659;
+  font-family: "Crimson Text";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+  padding-bottom: 10px;
+}
+/* For consistent image sizing in the cards */
+.what-we-offer-img {
+  width: 100%;
+  /* max-width: 220px; */
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.mat-green:hover{
+  background: #279EFF;
+  color: #fff;
+}
+.core-values {
+  background: #226008;
+  color: #fff;
+  padding: 60px 0;
+}
+.core-values .card {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+.bg-light-green {
+  background: #dff2d8;
+}
+.bg-green {
+  background: #226008;
+  color: #fff;
+}
+.clients-logo img {
+  max-width: 80px;
+  margin: 15px;
+}
+.testimonial {
+  background: #fff;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 12px;
+  border: 1px solid #ececec;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.footer {
+  background: #226008;
+  color: #fff;
+  padding: 40px 0 10px 0;
+  margin-top: 30px;
+}
+.newsletter-box {
+  background: #226008;
+  color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 340px;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+  z-index: 99;
+}
+
+/* Make font size smaller on small screens */
+@media (max-width: 576px) {
+  body, p, .section-title, .section-h, h1, h2, h3, h4, h5, h6, .card, .footer, .hero-text-box, .newsletter-box {
+    font-size: 0.75rem !important;
+    font-family: "Crimson Text", serif;
+  }
+  h1 {
+    font-size: 1.3rem !important;
+  }
+  h2 {
+    font-size: 1.1rem !important;
+  }
+  h3, h4, h5, h6 {
+    font-size: 1rem !important;
+  }
+}
