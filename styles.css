@@ -236,6 +236,99 @@ line-height: 125%; /* 18.75px */
   margin-bottom: 0;
   font-family: 'Crimson Text', serif;
 }
+
+.strategic-leadership-section {
+  background: #fff;
+  color: #1a237e;
+}
+.strategic-title {
+  color: #279EFF;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.strategic-subtitle {
+  color: #1a237e;
+  font-size: 1.2rem;
+ 
+}
+.strategic-icon {
+  display: inline-block;
+  background: #279EFF;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.1em 0.5em;
+  font-size: 1.1rem;
+  margin-right: 0.3em;
+}
+.strategic-box {
+  border: 2px solid #bfc6e0;
+  border-radius: 8px;
+  background: #fff;
+  color: #222;
+  font-family: 'Crimson Text', serif;
+  font-size: 0.8rem;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(30,40,80,0.04);
+}
+.strategic-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8rem;
+}
+.strategic-list li {
+  margin-bottom: 1.1rem;
+  color: #222;
+  font-family: 'Crimson Text', serif;
+  font-size: 0.8rem;
+}
+.strategic-list-title {
+  color: #279EFF;
+  font-weight: 600;
+}
+.csr-section {
+  background: #fff;
+}
+.csr-title {
+  color: #279EFF;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+.csr-desc {
+  color: #222;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.05rem;
+  max-width: 90%;
+}
+.csr-btn {
+  background: #279EFF;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.csr-btn:hover, .csr-btn:focus {
+  background: #1a237e;
+  color: #fff;
+}
+.csr-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,40,80,0.08);
+}
+@media (max-width: 991px) {
+  .csr-title { font-size: 1.4rem; }
+  .csr-desc { font-size: 0.98rem; }
+}
+@media (max-width: 991px) {
+  .strategic-title { font-size: 1.5rem; }
+  .strategic-box, .strategic-list li { font-size: 0.8rem; }
+}
 @media (max-width: 991px) {
   .why-choose-box { min-height: unset; }
 }
