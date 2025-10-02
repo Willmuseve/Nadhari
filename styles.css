@@ -72,6 +72,10 @@
   border-radius: 5px;
   text-transform: capitalize;
 }
+.contact-form .form-check-input:checked + .form-check-label {
+  color: #279EFF !important;
+  font-weight: 600;
+}
 
 .hero-text-box .btn-success:hover,
 .hero-text-box .btn-success:focus {
@@ -199,7 +203,7 @@ line-height: 125%; /* 18.75px */
 }
 
 .why-choose-section {
-  background: #5d7a0a; /* Use your green shade */
+  background: #538D0D; /* Use your green shade */
   color: #fff;
 }
 .why-choose-title {
@@ -323,7 +327,7 @@ line-height: 125%; /* 18.75px */
 }
 
 .sustainability-section {
-  background: #5d7a0a; /* Use your green shade */
+  background: #538D0D; /* Use your green shade */
   color: #fff;
 }
 .sustainability-title {
@@ -349,7 +353,7 @@ line-height: 125%; /* 18.75px */
 }
 .sustainability-btn {
   background: #fff;
-  color: #5d7a0a;
+  color: #538D0D;
   font-weight: 600;
   border: none;
   border-radius: 5px;
@@ -408,35 +412,36 @@ line-height: 125%; /* 18.75px */
   font-family: 'Georgia', serif;
   font-size: 1.05rem;
   font-weight: 600;
-  color: #5d7a0a;
+  color: #538D0D;
 }
 .contact-section {
-  background: #fff;
+  
 }
 .contact-card {
-  background: rgba(255,255,255,0.95);
+  background: #fffffff2;
   border-radius: 18px;
   box-shadow: 0 2px 16px rgba(30,40,80,0.07);
   overflow: hidden;
 }
 .contact-info {
-  background: #5d7a0a;
+  background: #538D0D;
   color: #fff;
   border-radius: 18px 0 0 18px;
-  min-height: 420px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
 .contact-title {
-  font-family: 'Georgia', serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 32px;
 }
 .contact-subtitle {
   font-size: 1rem;
   color: #e6e6e6;
+  font-family: 'Crimson Text', serif;
 }
 .contact-info ul {
   font-size: 1.05rem;
@@ -446,14 +451,25 @@ line-height: 125%; /* 18.75px */
   color: #fff;
   font-size: 1.1rem;
 }
+/* Social media icons with rounded circle backgrounds */
 .contact-social a {
-  color: #fff;
-  font-size: 1.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
   margin-right: 0.7rem;
-  transition: color 0.2s;
+  text-decoration: none;
+  background: #064D1E;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  box-shadow: 0 2px 8px rgba(30,40,80,0.08);
+  transition: background 0.2s, color 0.2s;
 }
-.contact-social a:hover {
-  color: #279EFF;
+.contact-social a:hover, .contact-social a:focus {
+  background: #279EFF;
+  color: #fff;
 }
 .contact-form label {
   color: #279EFF;
@@ -465,7 +481,7 @@ line-height: 125%; /* 18.75px */
   border-bottom: 1.5px solid #bfc6e0;
   border-radius: 0;
   background: transparent;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
   box-shadow: none;
 }
@@ -474,15 +490,35 @@ line-height: 125%; /* 18.75px */
   background: transparent;
   box-shadow: none;
 }
+.contact-form .form-check{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form .form-check-input {
+  margin-right: 0.5rem;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #bfc6e0;
+  box-shadow: none;
+  background: transparent;
+}
 .contact-form .form-check-input:checked {
   background-color: #279EFF;
   border-color: #279EFF;
+  color: #279EFF;
+  
+}
+.contact-form .form-check-label {
+  font-size: 0.9rem;
+  color: #222222cc;
+  font-family: 'Crimson Text', serif;
 }
 .contact-form .btn-success {
-  background: #5d7a0a;
+  font-family: 'Crimson Text', serif;
   border: none;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-radius: 6px;
 }
 .contact-form .btn-success:hover, .contact-form .btn-success:focus {
