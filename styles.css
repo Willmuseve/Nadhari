@@ -321,6 +321,102 @@ line-height: 125%; /* 18.75px */
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(30,40,80,0.08);
 }
+
+.sustainability-section {
+  background: #5d7a0a; /* Use your green shade */
+  color: #fff;
+}
+.sustainability-title {
+  color: #fff;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+.sustainability-desc {
+  color: #fff;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.05rem;
+}
+.sustainability-list {
+  color: #fff;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.05rem;
+  padding-left: 1.2rem;
+}
+.sustainability-list strong {
+  color: #fff;
+  font-weight: 700;
+}
+.sustainability-btn {
+  background: #fff;
+  color: #5d7a0a;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(30,40,80,0.08);
+}
+.sustainability-btn:hover, .sustainability-btn:focus {
+  background: #279EFF;
+  color: #fff;
+}
+.sustainability-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,40,80,0.08);
+}
+
+.clients-section {
+  background: #fff;
+  align-items: center;
+}
+.clients-section .container {
+padding: 10rem auto;
+}
+.clients-title {
+  color: #2336a2;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.clients-desc {
+  color: #222;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 0 auto 2.5rem auto;
+}
+.client-icon-box {
+  background: rgba(39, 158, 255, 0.04);
+  border-radius: 16px;
+  padding: 1.2rem 0.5rem 0.7rem 0.5rem;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.client-icon-box img {
+  max-width: 90px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.client-label {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #5d7a0a;
+}
+@media (max-width: 991px) {
+  .clients-title { font-size: 3rem !important; }
+  .client-icon-box { min-height: 120px; }
+}
+@media (max-width: 991px) {
+  .sustainability-title { font-size: 1.4rem; }
+  .sustainability-desc, .sustainability-list { font-size: 0.8rem; }
+}
 @media (max-width: 991px) {
   .csr-title { font-size: 1.4rem; }
   .csr-desc { font-size: 0.98rem; }
