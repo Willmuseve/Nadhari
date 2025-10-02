@@ -298,7 +298,7 @@
 
 <!-- Sustainability Section -->
 <section class="sustainability-section py-5">
-  <div class="container">
+  <div class="container py-5">
     <div class="row align-items-center">
       <!-- Left: Image -->
       <div class="col-12 col-lg-6 mb-4 mb-lg-0">
@@ -327,8 +327,8 @@
   </div>
 </section>
 
-
-<section class="clients-section py-5">
+  <!-- Our Clients -->
+<section class="clients-section ">
   <div class="container text-center">
     <h1 class="clients-title my-3">Our Clients</h1>
     <p class="clients-desc mb-5">
@@ -363,44 +363,81 @@
   </div>
 </section>
 
-  <!-- Our Clients -->
-  <div class="container text-center my-5">
-    <h2 class="section-title">Our Clients</h2>
-    <div class="clients-logo d-flex justify-content-center flex-wrap">
-      <img src="client1.png" alt="Client 1" />
-      <img src="client2.png" alt="Client 2" />
-      <img src="client3.png" alt="Client 3" />
-      <img src="client4.png" alt="Client 4" />
-    </div>
-    <p>We are trusted by leading organizations, government agencies, and educational institutions.</p>
-  </div>
+  
 
   <!-- Contact Section -->
-  <div class="container mb-5" id="contact">
-    <h4 class="section-title">Contact Information</h4>
-    <div class="row">
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-md-6">
-            <div><strong>Email:</strong> info@medcare.com</div>
-            <div><strong>Phone:</strong> +254 123 4567</div>
-          </div>
-          <div class="col-md-6">
-            <div><strong>Location:</strong> Nairobi, Kenya</div>
-            <div><strong>Address:</strong> 456 Health Ave, Nairobi</div>
-          </div>
+  <section class="contact-section py-5">
+  <div class="container">
+    <div class="row g-0 contact-card">
+      <!-- Left: Contact Info -->
+      <div class="col-12 col-lg-4 contact-info p-4">
+        <h3 class="contact-title mb-2">Contact Information</h3>
+        <p class="contact-subtitle mb-4">Fill the form to interact with our team?</p>
+        <ul class="list-unstyled mb-4">
+          <li class="mb-3"><i class="fas fa-phone-alt me-2"></i>+254 703 404549</li>
+          <li class="mb-3"><i class="fas fa-envelope me-2"></i>info@nadhari.ke</li>
+          <li class="mb-3"><i class="fas fa-map-marker-alt me-2"></i>P.O. Box 67032-00200, Nairobi, Kenya</li>
+        </ul>
+        <div class="contact-social">
+          <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="me-2"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
-      <div class="col-md-4">
-        <form id="contactForm">
-          <input type="text" class="form-control mb-2" placeholder="Name" required />
-          <input type="email" class="form-control mb-2" placeholder="Email" required />
-          <textarea class="form-control mb-2" placeholder="Message" required></textarea>
-          <button type="submit" class="btn btn-success w-100">Send Message</button>
+      <!-- Right: Contact Form -->
+      <div class="col-12 col-lg-8 contact-form p-4">
+        <form>
+          <div class="row mb-3">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="Joe" />
+            </div>
+            <div class="col-12 col-md-6">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="you@email.com" />
+            </div>
+            <div class="col-12 col-md-6">
+              <label class="form-label">Phone Number</label>
+              <input type="text" class="form-control" placeholder="+254 798 256 760" />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label d-block">Select Subject?</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="subject" id="general" checked>
+              <label class="form-check-label" for="general">General Inquiry</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="subject" id="health">
+              <label class="form-check-label" for="health">Health Care Inquiry</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="subject" id="psych">
+              <label class="form-check-label" for="psych">Psychological Counselling</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="subject" id="supplies">
+              <label class="form-check-label" for="supplies">Medical Supplies</label>
+            </div>
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="2" placeholder="Write your message.."></textarea>
+          </div>
+          <div class="text-end">
+            <button type="submit" class="btn btn-success px-5 py-2">Send Message</button>
+          </div>
         </form>
       </div>
     </div>
   </div>
+</section>
 
   <!-- Testimonials -->
   <div class="container mb-5 text-center">
