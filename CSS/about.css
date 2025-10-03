@@ -1,0 +1,91 @@
+.custom-navbar {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #22225a !important;
+    background: transparent;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navbar-brand img {
+    height: 48px;
+}
+
+.contact-btn {
+    background: #7c8712;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 28px;
+    border: none;
+    transition: background 0.2s;
+}
+
+.contact-btn:hover {
+    background: #5e640d;
+    color: #fff;
+}
+
+.about-hero-section {
+    position: relative;
+    min-height: 350px;
+    background: url('/Images/serkan-yildiz.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(44, 44, 44, 0.45);
+    z-index: 1;
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+
+.about-hero-title {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 24px 48px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #22225a;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .about-hero-title {
+        font-size: 1.5rem;
+        padding: 16px 12px;
+    }
+
+    .navbar-brand img {
+        height: 36px;
+    }
+}
