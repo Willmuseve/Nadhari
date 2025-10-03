@@ -23,14 +23,14 @@
 
 .custom-navbar .nav-link.active,
 .custom-navbar .nav-link:hover {
-  color: #aadd55 !important; /* Light green highlight */
+  color: #538D0D !important; /* Light green highlight */
   padding: 10px 20px;
 }
 
 .custom-navbar .btn-success {
   background-color: #538D0D;
-  border-color: #5F9000;
-  padding: 0.4rem 1rem;
+  border-color: #538D0D;
+  padding: 0.5rem 1rem;
   font-weight: 600;
   border-radius: 5px;
 }
@@ -44,15 +44,6 @@
     height: 48px;
 }
 
-.contact-btn {
-    background: #7c8712;
-    color: #fff !important;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 28px;
-    border: none;
-    transition: background 0.2s;
-}
 
 .contact-btn:hover {
     background: #538D0D;
@@ -99,6 +90,36 @@
     letter-spacing: 2px;
     margin: 0 auto;
     max-width: 500px;
+}
+
+/* Team Section Styles */
+.team-card {
+  background: #fff8f8;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s;
+}
+.team-card:hover {
+  box-shadow: 0 8px 32px rgba(52,120,246,0.13);
+}
+.team-card .card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background: #e3e3e3;
+}
+.team-card .card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-card .card-body p{
+  font-size: 0.8rem;
+  color: #555;
 }
 
 @media (max-width: 768px) {
