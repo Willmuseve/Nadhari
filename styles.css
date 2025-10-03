@@ -724,15 +724,18 @@ line-height: 125%; /* 18.75px */
   font-size: 1.1rem;
 }
 .footer-bottom {
-  border-top: 2px solid #387a0a;
+  background: #064D1E;
   color: #fff;
-  font-size: 0.98rem;
-  margin-top: 2rem;
+  font-size: 0.9rem;
   padding-top: 1rem;
 }
 @media (max-width: 991px) {
   .footer-section .row > div {
     margin-bottom: 2rem;
+  }
+  .footer-bottom{
+    margin-top: 0;
+    font-size: 0.7rem;
   }
 }
 
