@@ -1,23 +1,45 @@
+/* Custom Navbar Styles */
 .custom-navbar {
-    background: transparent;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+  padding: 1rem 2rem;
+}
+.custom-navbar .navbar-collapse{
+  background-color: #182b01bd;
+  width:max-content;
+  align-items: flex-start;
 }
 
-.navbar-nav .nav-link {
-    color: #fff !important;
-    font-weight: 600;
-    margin: 0 10px;
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  font-style: "Crimson Text", serif;
 }
 
-.navbar-nav .nav-link.active {
-    color: #22225a !important;
-    background: transparent;
-    font-weight: 700;
-    text-decoration: underline;
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+  color: #aadd55 !important; /* Light green highlight */
+  padding: 10px 20px;
 }
 
+.custom-navbar .btn-success {
+  background-color: #538D0D;
+  border-color: #5F9000;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.custom-navbar .btn-success:hover,
+.custom-navbar .btn-success:focus {
+  background-color: #538D0D;
+  border-color: #538D0D;
+}
 .navbar-brand img {
     height: 48px;
 }
@@ -33,7 +55,7 @@
 }
 
 .contact-btn:hover {
-    background: #5e640d;
+    background: #538D0D;
     color: #fff;
 }
 
