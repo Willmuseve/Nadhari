@@ -719,7 +719,7 @@ line-height: 125%; /* 18.75px */
   align-items: center;
 }
 .footer-contact-icon {
-  color: #bfc06b;
+  color: #279EFF;
   margin-right: 0.5rem;
   font-size: 1.1rem;
 }
@@ -732,10 +732,15 @@ line-height: 125%; /* 18.75px */
 @media (max-width: 991px) {
   .footer-section .row > div {
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
+
   .footer-bottom{
     margin-top: 0;
     font-size: 0.7rem;
+  }
+  .footer-social{
+    justify-content: center;
   }
 }
 
