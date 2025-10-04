@@ -122,6 +122,36 @@
   color: #555;
 }
 
+p {
+  font-size: 0.9rem;
+}
+.future-outlook-section ul li,
+.accreditations-section ul li{
+  font-size: 0.9rem;
+}
+
+@media (max-width: 991.98px) {
+
+  p {
+    font-size: 0.8rem;
+  }
+  .future-outlook-section .row ul li,
+  .accreditations-section .row ul li{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  
+  p {
+    font-size: 0.9rem;
+  }
+  .future-outlook-section ul li,
+  .accreditations-section ul li{
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 768px) {
     .about-hero-title {
         font-size: 1.5rem;
